@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Student Record Management">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Raviraajan Ravichandar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<title> Student Record Management </title>
+
+<link rel="stylesheet" href="main.css">
+<script type="text/javascript" src="main.js"></script>
+
+<body>
+<h1> Student Record Management </h1>
+
+<img src="register-now.gif" alt="pizza" width="700" height="200" align="right">
+
+<form name="StudentForm">
+
+<label> Full Name </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <label> &nbsp;&nbsp;&nbsp;&nbsp;  Major </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start Year </label> 
+<br>
+
+<input name="student"  placeholder="Enter Full Name" size="20" type="text"  />
+																			
+<input name="major" placeholder="Enter your Major" size="20" type="text"  /> 
+
+<input name="year" placeholder="Enter your year" size="10" type="text" /> 
+
+<input type="button" value="Add Record" onclick="doAppend()" />
+
+</form>
+
+<p> Entered Records : </p>
+<p id="result">
+	<div>
+		
+	</div>
+
+	
+</body>
+</html>
