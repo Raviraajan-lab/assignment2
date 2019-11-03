@@ -11,12 +11,13 @@ body{
     }
 
 .button {
-  background-color: powderblue;
-  border-radius: 2px;
+  background-color: #e7e7e7; color: black;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
   color: gray;
-  padding: 15px 32px;
+  padding: 4px 6px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   margin: 4px 2px;
   cursor: pointer;
 }
