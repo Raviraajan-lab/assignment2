@@ -6,7 +6,7 @@
 		var branch = document.StudentForm.major.value; 
 		var startYear = parseInt(document.StudentForm.year.value);	
 		
-		if(2000 >= startYear)
+		if(startYear < 2000)
 						{
 							alert( "Inncorrect Year!" );
 							document.StudentForm.year.focus();
