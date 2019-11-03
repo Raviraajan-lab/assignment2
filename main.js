@@ -2,14 +2,14 @@
 	{	
 		if(validateText())
 		{
-		var name = document.StudentForm.student.value;
-		var branch = document.StudentForm.major.value; 
-		var startYear = parseInt(document.StudentForm.year.value);	
+		var name = document.myForm.student.value;
+		var branch = document.myForm.major.value; 
+		var startYear = parseInt(document.myForm.year.value);	
 		
 		if(startYear < 2000)
 						{
 							alert( "Inncorrect Year!" );
-							document.StudentForm.year.focus();
+							document.myForm.year.focus();
 							return false;
 						}
 		
@@ -25,25 +25,25 @@
 		linebreak = document.createElement("br");
 		document.getElementById("result").appendChild(linebreak);
 	
-		document.StudentForm.student.value = "";
-		document.StudentForm.major.value = "";
-		document.StudentForm.year.value = "";
+		document.myForm.student.value = "";
+		document.myForm.major.value = "";
+		document.myForm.year.value = "";
 		}
 	}
 	
 	function validateText()
 				{			/* Validate all the fields to verify any null values present */
 									
-					if( document.StudentForm.student.value == "" ) 
+					if( document.myForm.student.value == "" ) 
 						{
 						alert( "Please provide your name!" );
-						document.StudentForm.student.focus();
+						document.myForm.student.focus();
 						return false;
 						}
-					 if( document.StudentForm.major.value == "" ) 
+					 if( document.myForm.major.value == "" ) 
 						{
 						alert( "Please provide your Major!" );
-						document.StudentForm.major.focus();
+						document.myForm.major.focus();
 						return false;
 						}
 											
