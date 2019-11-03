@@ -17,7 +17,7 @@
 		var myDate = new Date();	
 		var results = "";
 		
-		results +=  myDate.getMonth() +"/"+ myDate.getDate() + "/" + myDate.getFullYear() + "-" + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds() + " - " + name + " , " + branch + "  " + ", " + startYear; 
+		results +=  (myDate.getMonth() + 1) +"/"+ myDate.getDate() + "/" + myDate.getFullYear() + "-" + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds() + " - " + name + " , " + branch + "  " + ", " + startYear; 
 		
 		var t = document.createTextNode(results);
 		document.getElementById("result").appendChild(t);
