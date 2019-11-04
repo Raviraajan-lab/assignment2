@@ -8,7 +8,7 @@
 		
 		if(startYear < 2000 || startYear > 9999)
 						{
-							alert( "Inncorrect Year!" );
+							alert( "Inncorrect Year!" + startYear);
 							document.myForm.year.focus();
 							return false;
 						}
